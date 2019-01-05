@@ -12,7 +12,11 @@ echo "\\documentclass[oneside,danish,onecolumn,openbib,a4paper]{memoir}
 \\usepackage{siunitx,mathtools}
 \\usepackage{hyperref}
 \\hypersetup{colorlinks=true}
+\\title{}
+\\author{Thorbjørn Erik Køppen Christensen}
 \\begin{document}
+
+\\maketitle{}
 Inspiered by:
 \url{<+The link to the writing prompt+>}
 
@@ -27,7 +31,10 @@ echo "\\documentclass[oneside,danish,onecolumn,openbib,a4paper]{memoir}
 \\usepackage{siunitx,mathtools}
 \\usepackage{hyperref}
 \\hypersetup{colorlinks=true}
+\\title{}
+\\author{Thorbjørn Erik Køppen Christensen}
 \\begin{document}
+\\maketitle{}
 Inspiered by:
 \url{<+The link to the writing prompt+>}
 
