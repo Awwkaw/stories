@@ -1,4 +1,4 @@
-#my short stories
+# my short stories
 This github repository is me trying to learn to write, both in the english and danish tounge.
 
 As such it will hopefully hold a story every day, and with even higher hopes, these stories might improve with time!
