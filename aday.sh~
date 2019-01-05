@@ -1,0 +1,15 @@
+DAY=`date +%Y-%m-%d`
+mkdir ./$DAY
+mkdir ./$DAY/dansk
+mkdir ./$DAY/english
+
+touch ./$DAY/dansk/story.tex
+touch ./$DAY/english/story.tex
+
+DFILE="./$DAY/dansk/story.tex"
+echo "\\documentclass[oneside,english,onecolumn,openbib,a4paper]{memoir}" >> "$DFILE"
+echo "\\begin{document}\n\n\\end{document}" >> "$DFILE"
+
+EFILE="./$DAY/english/story.tex"
+echo "\\documentclass[oneside,english,onecolumn,openbib,a4paper]{memoir}" >> "$EFILE"
+echo "\\begin{document}\n\n\\end{document}" >> "$EFILE"
