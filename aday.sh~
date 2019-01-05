@@ -3,13 +3,41 @@ mkdir ./$DAY
 mkdir ./$DAY/dansk
 mkdir ./$DAY/english
 
-touch ./$DAY/dansk/story.tex
-touch ./$DAY/english/story.tex
 
 DFILE="./$DAY/dansk/story.tex"
-echo "\\documentclass[oneside,english,onecolumn,openbib,a4paper]{memoir}" >> "$DFILE"
-echo "\\begin{document}\n\n\\end{document}" >> "$DFILE"
+touch "$DFILE"
+echo "\\documentclass[oneside,danish,onecolumn,openbib,a4paper]{memoir}
+\\usepackage[utf8]{inputenc}
+\\usepackage[T1]{fontenc}
+\\usepackage{siunitx,mathtools}
+\\usepackage{hyperref}
+\\hypersetup{colorlinks=true}
+\\title{}
+\\author{Thorbjørn Erik Køppen Christensen}
+\\begin{document}
+
+\\maketitle{}
+Inspired by:
+\url{<+The link to the writing prompt+>}
+
+
+\\end{document}" >> "$DFILE"
 
 EFILE="./$DAY/english/story.tex"
-echo "\\documentclass[oneside,english,onecolumn,openbib,a4paper]{memoir}" >> "$EFILE"
-echo "\\begin{document}\n\n\\end{document}" >> "$EFILE"
+touch "$EFILE"
+echo "\\documentclass[oneside,danish,onecolumn,openbib,a4paper]{memoir}
+\\usepackage[utf8]{inputenc}
+\\usepackage[T1]{fontenc}
+\\usepackage{siunitx,mathtools}
+\\usepackage{hyperref}
+\\hypersetup{colorlinks=true}
+\\title{}
+\\author{Thorbjørn Erik Køppen Christensen}
+\\begin{document}
+\\maketitle{}
+Inspired by:
+\url{<+The link to the writing prompt+>}
+
+
+\\end{document}" >> "$EFILE"
+

@@ -17,10 +17,11 @@ echo "\\documentclass[oneside,danish,onecolumn,openbib,a4paper]{memoir}
 \\begin{document}
 
 \\maketitle{}
-Inspiered by:
-\url{<+The link to the writing prompt+>}
 
 
+\\newline\\newline\\newline
+\\subsection{Inspired by:}
+\\url{<+The link to the writing prompt+>}
 \\end{document}" >> "$DFILE"
 
 EFILE="./$DAY/english/story.tex"
@@ -35,9 +36,13 @@ echo "\\documentclass[oneside,danish,onecolumn,openbib,a4paper]{memoir}
 \\author{Thorbjørn Erik Køppen Christensen}
 \\begin{document}
 \\maketitle{}
-Inspiered by:
-\url{<+The link to the writing prompt+>}
 
 
+
+\\newline\\newline\\newline
+Feedback welcome ;-)
+
+\\subsection{Inspired by:}
+\\url{<+The link to the writing prompt+>}
 \\end{document}" >> "$EFILE"
 
