@@ -12,7 +12,7 @@ echo "\\documentclass[oneside,danish,onecolumn,openbib,a4paper]{memoir}
 \\usepackage{siunitx,mathtools}
 \\usepackage{hyperref}
 \\hypersetup{colorlinks=true}
-\\title{}
+\\title{<+You should write the name of the writing prompt here+>}
 \\author{Thorbjørn Erik Køppen Christensen}
 \\begin{document}
 
@@ -32,7 +32,7 @@ echo "\\documentclass[oneside,danish,onecolumn,openbib,a4paper]{memoir}
 \\usepackage{siunitx,mathtools}
 \\usepackage{hyperref}
 \\hypersetup{colorlinks=true}
-\\title{}
+\\title{<+You should write the name of the writing prompt here+>}
 \\author{Thorbjørn Erik Køppen Christensen}
 \\begin{document}
 \\maketitle{}
