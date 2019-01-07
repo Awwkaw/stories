@@ -12,15 +12,16 @@ echo "\\documentclass[oneside,danish,onecolumn,openbib,a4paper]{memoir}
 \\usepackage{siunitx,mathtools}
 \\usepackage{hyperref}
 \\hypersetup{colorlinks=true}
-\\title{}
+\\title{<+You should write the name of the writing prompt here+>}
 \\author{Thorbjørn Erik Køppen Christensen}
 \\begin{document}
 
 \\maketitle{}
-Inspired by:
-\url{<+The link to the writing prompt+>}
 
 
+\\newline\\newline\\newline
+\\subsection{Inspired by:}
+\\url{<+The link to the writing prompt+>}
 \\end{document}" >> "$DFILE"
 
 EFILE="./$DAY/english/story.tex"
@@ -31,13 +32,17 @@ echo "\\documentclass[oneside,danish,onecolumn,openbib,a4paper]{memoir}
 \\usepackage{siunitx,mathtools}
 \\usepackage{hyperref}
 \\hypersetup{colorlinks=true}
-\\title{}
+\\title{<+You should write the name of the writing prompt here+>}
 \\author{Thorbjørn Erik Køppen Christensen}
 \\begin{document}
 \\maketitle{}
-Inspired by:
-\url{<+The link to the writing prompt+>}
 
 
+
+\\newline\\newline\\newline
+Feedback welcome ;-)
+
+\\subsection{Inspired by:}
+\\url{<+The link to the writing prompt+>}
 \\end{document}" >> "$EFILE"
 

@@ -26,7 +26,7 @@ echo "\\documentclass[oneside,danish,onecolumn,openbib,a4paper]{memoir}
 
 EFILE="./$DAY/english/story.tex"
 touch "$EFILE"
-echo "\\documentclass[oneside,danish,onecolumn,openbib,a4paper]{memoir}
+echo "\\documentclass[oneside,english,onecolumn,openbib,a4paper]{memoir}
 \\usepackage[utf8]{inputenc}
 \\usepackage[T1]{fontenc}
 \\usepackage{siunitx,mathtools}
@@ -36,7 +36,6 @@ echo "\\documentclass[oneside,danish,onecolumn,openbib,a4paper]{memoir}
 \\author{Thorbjørn Erik Køppen Christensen}
 \\begin{document}
 \\maketitle{}
-
 
 
 \\newline\\newline\\newline
